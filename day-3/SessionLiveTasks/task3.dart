@@ -6,11 +6,14 @@
 import 'dart:io';
 
 void main() {
-  print("Please Enter the number ");
   int userNumber;
   do {
+    print("Please Enter the number ");
     userNumber = int.parse(stdin.readLineSync()!);
-    bool isEvenNumber = userNumber % 2 == 0;
+    if (userNumber < 0) {
+      break;
+    }
+    bool isEvenNumber = userNumber % 2 == 0; // "2" % 2
     if (isEvenNumber) {
       print("The number is Even");
     } else {
