@@ -1,5 +1,5 @@
 void main() {
-  print(Solution().lastStoneWeight([1, 1]));
+  print(Solution().lastStoneWeight([2,7,4,1,8,1]));
 }
 
 // Input: stones = [2,7,4,1,8,1]
