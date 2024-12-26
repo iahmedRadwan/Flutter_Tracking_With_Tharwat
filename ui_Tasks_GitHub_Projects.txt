@@ -8,3 +8,7 @@ task4 tune-Player-App URL :
 https://github.com/iahmedRadwan/-tune-Player-App
 task5 quiz-App url:
 https://github.com/iahmedRadwan/quiz-app
+task6 NewsApp url:
+https://github.com/iahmedRadwan/NewsApp
+task 7 WeatherApp url:
+https://github.com/iahmedRadwan/weatherApp
